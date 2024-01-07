@@ -19,3 +19,6 @@ return ()=>{
 }
 
 export default App;
+
+
+// when useEffect runs after initial render then first old cleanup function runs then useEffect callback function runs
